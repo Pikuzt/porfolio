@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+    
+font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+header{
+    background: #212121;
+    width: 100%;   
+}
+
+/* Titulo del menu*/
+.title-menu{
+    padding: 1rem;
+    display: inline-block;    
+    }
+
+.title-menu h4{
+    color: white;
+    font-size: 3rem;    
+    border-bottom: solid 2px #64908A
+}
+
+/*menu hamburguesa*/
+
+.burguer-container{    
+    position: absolute;
+    right: 5px;
+    top: 1.5rem    
+}
+.burguer-menu{
+    display: inline-block;
+    padding: 1rem;
+    position: relative;    
+    }
+
+.burguer-menu i{
+    color: white;
+}
+.burguer-menu:hover{
+    cursor: pointer;
+}
+
+/*opciones del menu*/
+nav li {    
+    padding: 1rem;    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li:hover{
+    background: rgb(151, 149, 149, 0.5)
+}
+
+nav li a {
+    color: whitesmoke;
+    padding: 1rem;    
+    text-decoration: none; 
+    font-size: 2rem;
+}
+
+#options.active{
+    display: none;
+}
+
+
+/*Perfiles*/
+
+.profile{
+    background: #212121;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0 50px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.row{
+    flex-wrap: wrap-reverse;
+
+}
+.box{
+    display: inline-block;    
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;  
+}
+.descripcion{
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: left;
+    
+}
+.descripcion h3{
+    padding: 1rem;
+    color: #64908A;
+    border-bottom:solid 2px whitesmoke;
+    
+}
+.descripcion p{
+    padding: 1rem;
+    font-size: 1.5rem;    
+}
+.descripcion a{ 
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: .8rem;    
+    border-radius:50px 50px 50px 50px;
+    background: #CC2A41;
+    margin: 1rem; 
+}
+.descripcion a :hover{
+    background: whitesmoke;
+}
+.box img{
+    text-align: center;
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+}
+.table{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+/*skills*/
+.skills{
+    background: g#ffffff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.title-skills{
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.title-skills h1{
+    font-size: 4vh;
+}
+
+.row-container-skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    padding: 1rem;
+    
+}
+
+.box-skills{    
+    width: 100%;
+    margin: .5rem;
+    padding: 1rem;
+    box-sizing: border-box;    
+    background: whitesmoke;
+    border-radius:15px;
+    -webkit-box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+}
+
+.box-skills:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.front-end h2{
+    color: #64908A;
+    text-align: center;
+    font-size: 3rem;
+    padding: .2rem;
+    border-bottom: solid 2px #CC2A41;
+    
+}
+.front-end span p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.front-end li {
+    list-style: none;
+    padding: .2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.front-end span i {
+    display: inline-block;
+    position: relative;
+    left: 39%;
+    font-size: 5rem;
+    color: #CC2A41;
+    text-align: center;
+}
+
+
+/*proyectos*/
+.projects{
+    background:#f2f2f2;
+    width: 100%;    
+    padding: 10% 0 10%;
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.row-projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.box-project{
+    width: 91%;
+    margin: .5rem;
+    border-radius:150px;     
+    padding: 1rem;
+    box-sizing: border-box;   
+    text-align: center;    
+    box-sizing: border-box;
+    
+   
+    
+    }
+
+    .box-project img{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        box-sizing: border-box;
+    }
+
+    .title-projects h1{
+        color: #CC2A41;
+        border-bottom:solid 2px #212121;  
+    }
+
+
+    /*footer*/
+    footer{
+        background: #212121;
+        height: 100px;
+                
+    }
+
+    .social-networks{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 5%;
+    }
+
+.social-networks a{
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 1rem;
+
+}
+
+
+
+    /*Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) { 
+        .table-project{
+            width: 47%;
+        }
+
+        .projects{
+            padding: 10% 0 10%;
+        }
+    }
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+
+
+@media (min-width: 768px) {
+
+    /*table imagenes */
+    .table-project{
+        width: 20%;
+    }
+
+    .box-project img{       
+        width: 100%;
+        height: 100%;        
+    }
+    
+
+    /* menu hamburguesa*/
+    .burguer-container {
+        display: none;
+      }
+      #options {
+        display: inline-block;
+        padding: 1rem;
+        position: absolute;
+        right: 1px;
+      }
+      nav li {
+        display: inline-block;
+        
+      }
+      .box{
+          width: 100;
+        }  
+        
+        /*Resposivo*/
+
+        .table{
+            width: 50%;
+        }
+
+        .table-skills{
+            width: 31%;
+        }
+
+        .title-skills h1{
+            font-size: 10vh;
+        }
+
+      .row{
+        display: flex;
+        justify-content: space-between;   
+        flex-wrap: wrap-reverse;        
+        position: absolute;
+        top: 30%;   
+    }      
+       .box img{
+           width: 300px;
+           text-align: center;
+      }
+
+      .descripcion p{
+          font-size: 1.5rem;
+      }
+      #options.active {
+          display: inline-block;
+        }
+
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) { 
+
+ }
+
+
+
+
+
+
+
+

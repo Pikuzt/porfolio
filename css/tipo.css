@@ -1,0 +1,155 @@
+  /*Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) { 
+
+    .skills{
+        padding: 0 0 65%;
+    }
+    .table-project{
+        width: 44%;
+    }
+
+    /* menu hamburguesa*/
+.burguer-container {
+    display: none;
+  }
+  #options {
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 1px;
+  }
+  nav li {
+    display: inline-block;
+    
+  }
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* menu hamburguesa*/
+.burguer-container {
+    display: none;
+  }
+  
+  #options {
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 1px;
+  }
+  nav li {
+    display: inline-block;
+    
+  }
+
+}
+/*  // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+.skills{
+    padding: 0 0 41%;
+}
+
+.profile{
+    padding: 0 0 0;
+}
+
+/*table imagenes */
+.table-project{
+    width: 20%;
+}
+
+
+
+.box-project img{       
+    width: 100%;
+    height: 100%;        
+}
+
+/* menu hamburguesa*/
+.burguer-container {
+    display: none;
+  }
+  #options {
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 1px;
+  }
+  nav li {
+    display: inline-block;
+    
+  }
+
+  
+    
+    /*Resposivo*/
+
+    .table{
+        width: 50%;
+    }
+
+    .table-skills{
+        width: 31%;
+    }
+
+    .title-skills h1{
+        font-size: 10vh;
+    }
+
+  .row{
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: wrap-reverse;        
+    position: absolute;
+    top: 30%;   
+}      
+
+
+  .descripcion p{
+      font-size: 1.5rem;
+  }
+  #options.active {
+      display: inline-block;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/ 
+@media (min-width: 1200px) { 
+/* menu hamburguesa*/
+.burguer-container {
+    display: none;
+  }
+  #options {
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 1px;
+  }
+  nav li {
+    display: inline-block;
+    
+  }
+  .box{
+      width: 49%;
+    }
+
+    .conten-profale{
+        top: -100px;
+    }
+    .descripcion{
+        position: relative;
+       
+        text-align: end;
+    }
+
+    .box img{
+        width: 500px;
+        text-align: center;
+   }
+}
